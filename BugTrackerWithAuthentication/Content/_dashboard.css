@@ -1,0 +1,47 @@
+﻿* {
+	margin: 0 0 0 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.wrapper {
+	display: flex;
+	position: relative;
+	margin-top: 0px;
+}
+
+	.wrapper .sidebar {
+		position: fixed;
+		width: 200px;
+		height: 100%;
+		background: rgb(15,74,164);
+		padding: 30px 0 0 10px;
+		color: #fff;
+		
+	}
+
+		.wrapper .sidebar #sidebar {
+			color: #fff;
+			padding-bottom: 10px;
+		}
+
+		.wrapper .sidebar ul li {
+			color: #fff;
+			padding: 15px;
+		}
+
+		.wrapper .sidebar ul li:hover {
+			background: rgb(14,63,140);
+		}
+
+	.wrapper h2 {
+		margin-left: 200px;
+		padding: 20px 0 0 40px;
+	}
+
+.main-content {
+	margin-left: 200px;
+
+}

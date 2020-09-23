@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Dashboard</title>
+	@Scripts.Render("~/bundles/modernizr")
+	@RenderSection("Styles", required: false)
+	<link rel="stylesheet" href="@Url.Content("~/Content/_dashboard.css")" />
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="sidebar">
+			<h1 id="sidebar">Sidebar</h1>
+			<ul>
+				<li>Dashboard</li>
+				<li>Issues</li>
+				<li>Settings</li>
+			</ul>
+		</div>
+		<h2>System dashboard</h2>
+	</div>
+	<div class="main-content">
+		@RenderBody()
+	</div>
+</body>
+</html>
