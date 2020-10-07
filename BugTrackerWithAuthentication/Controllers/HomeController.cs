@@ -31,9 +31,8 @@ namespace BugTrackerWithAuthentication.Controllers
         [Route("Home/Dashboard")]
         public ActionResult Dashboard()
         {
-            ViewBag.Message = "System Dashboard";
 
-            return View();
+            return this.RedirectToAction("Dashboard", "Dashboard");
         }
 
         

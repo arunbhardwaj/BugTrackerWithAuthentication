@@ -1,0 +1,9 @@
+C:\Users\Arun\Documents\workspace\BugTrackerWithAuthentication\SqlDatabases\bin\Debug\SqlDatabases.dacpac
+C:\Users\Arun\Documents\workspace\BugTrackerWithAuthentication\SqlDatabases\bin\Debug\SqlDatabases.dll
+C:\Users\Arun\Documents\workspace\BugTrackerWithAuthentication\SqlDatabases\bin\Debug\SqlDatabases.pdb
+C:\Users\Arun\Documents\workspace\BugTrackerWithAuthentication\SqlDatabases\obj\Debug\SqlDatabases.dll
+C:\Users\Arun\Documents\workspace\BugTrackerWithAuthentication\SqlDatabases\obj\Debug\SqlDatabases.pdb
+C:\Users\Arun\Documents\workspace\BugTrackerWithAuthentication\SqlDatabases\obj\Debug\Model.xml
+C:\Users\Arun\Documents\workspace\BugTrackerWithAuthentication\SqlDatabases\obj\Debug\refactor.xml
+C:\Users\Arun\Documents\workspace\BugTrackerWithAuthentication\SqlDatabases\obj\Debug\postdeploy.sql
+C:\Users\Arun\Documents\workspace\BugTrackerWithAuthentication\SqlDatabases\obj\Debug\predeploy.sql

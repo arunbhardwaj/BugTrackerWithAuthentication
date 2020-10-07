@@ -1,0 +1,9 @@
+C:\Users\Arun\Documents\workspace\BugTrackerWithAuthentication\DataLibrary\obj\Debug\DataLibrary.csprojAssemblyReference.cache
+C:\Users\Arun\Documents\workspace\BugTrackerWithAuthentication\DataLibrary\obj\Debug\DataLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Arun\Documents\workspace\BugTrackerWithAuthentication\DataLibrary\bin\Debug\DataLibrary.dll
+C:\Users\Arun\Documents\workspace\BugTrackerWithAuthentication\DataLibrary\bin\Debug\DataLibrary.pdb
+C:\Users\Arun\Documents\workspace\BugTrackerWithAuthentication\DataLibrary\bin\Debug\Dapper.dll
+C:\Users\Arun\Documents\workspace\BugTrackerWithAuthentication\DataLibrary\bin\Debug\Dapper.xml
+C:\Users\Arun\Documents\workspace\BugTrackerWithAuthentication\DataLibrary\obj\Debug\DataLibrary.csproj.CopyComplete
+C:\Users\Arun\Documents\workspace\BugTrackerWithAuthentication\DataLibrary\obj\Debug\DataLibrary.dll
+C:\Users\Arun\Documents\workspace\BugTrackerWithAuthentication\DataLibrary\obj\Debug\DataLibrary.pdb

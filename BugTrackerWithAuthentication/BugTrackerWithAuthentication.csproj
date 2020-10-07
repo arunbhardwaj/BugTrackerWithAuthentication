@@ -168,6 +168,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\DashboardController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Global.asax.cs">
@@ -195,8 +196,10 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\create-issue.css" />
     <Content Include="Content\dashboard.css" />
     <Content Include="Content\index.css" />
+    <Content Include="Content\view-issues.css" />
     <Content Include="Content\_dashboard.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -249,13 +252,14 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
-    <Content Include="Views\Home\Dashboard.cshtml" />
+    <Content Include="Views\Dashboard\Dashboard.cshtml" />
     <Content Include="Views\Shared\_Dashboard.cshtml" />
+    <Content Include="Views\Dashboard\ViewIssues.cshtml" />
+    <Content Include="Views\Dashboard\CreateIssue.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Images\" />
-    <Folder Include="Views\Dashboard\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
@@ -277,6 +281,12 @@
     <EmbeddedResource Include="Migrations\202009220337382_FirstName.resx">
       <DependentUpon>202009220337382_FirstName.cs</DependentUpon>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DataLibrary\DataLibrary.csproj">
+      <Project>{119A207E-7BF0-406F-9EB3-ED631C3EB783}</Project>
+      <Name>DataLibrary</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

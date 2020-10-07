@@ -106,3 +106,10 @@ C:\Users\Arun\Documents\workspace\BugTrackerWithAuthentication\BugTrackerWithAut
 C:\Users\Arun\Documents\workspace\BugTrackerWithAuthentication\BugTrackerWithAuthentication\obj\Debug\BugTrackerWithAuthentication.csproj.CopyComplete
 C:\Users\Arun\Documents\workspace\BugTrackerWithAuthentication\BugTrackerWithAuthentication\obj\Debug\BugTrackerWithAuthentication.dll
 C:\Users\Arun\Documents\workspace\BugTrackerWithAuthentication\BugTrackerWithAuthentication\obj\Debug\BugTrackerWithAuthentication.pdb
+C:\Users\Arun\Documents\workspace\BugTrackerWithAuthentication\BugTrackerWithAuthentication\obj\Debug\BugTrackerWithAuthentication.Migrations.InitialCreate.resources
+C:\Users\Arun\Documents\workspace\BugTrackerWithAuthentication\BugTrackerWithAuthentication\obj\Debug\BugTrackerWithAuthentication.Migrations.FirstName.resources
+C:\Users\Arun\Documents\workspace\BugTrackerWithAuthentication\BugTrackerWithAuthentication\obj\Debug\BugTrackerWithAuthentication.csproj.GenerateResource.cache
+C:\Users\Arun\Documents\workspace\BugTrackerWithAuthentication\BugTrackerWithAuthentication\bin\DataLibrary.dll
+C:\Users\Arun\Documents\workspace\BugTrackerWithAuthentication\BugTrackerWithAuthentication\bin\Dapper.dll
+C:\Users\Arun\Documents\workspace\BugTrackerWithAuthentication\BugTrackerWithAuthentication\bin\DataLibrary.pdb
+C:\Users\Arun\Documents\workspace\BugTrackerWithAuthentication\BugTrackerWithAuthentication\bin\Dapper.xml
