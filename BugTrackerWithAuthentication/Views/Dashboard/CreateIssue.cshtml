@@ -1,12 +1,15 @@
 ﻿@model BugTrackerWithAuthentication.Models.IssueModel
 
 @{
-	ViewBag.Title = "Create an Issue";
+	ViewBag.Title = "Create issue";
 	Layout = "~/Views/Shared/_Dashboard.cshtml";
 }
 
+@section Styles {
+	<link href="@Url.Content("~/Content/create-issue.css")" rel="stylesheet" />
+}
 
-<h2>CreateIssue</h2>
+@*<h2>Create issue</h2>*@
 
 @using (Html.BeginForm())
 {
@@ -15,6 +18,8 @@
 	<div class="form-horizontal">
 		<h4>IssueModel</h4>
 		<hr />
+		<br />
+
 		@Html.ValidationSummary(true, "", new { @class = "text-danger" })
 		<div class="form-group">
 			@Html.LabelFor(model => model.ProjectName, htmlAttributes: new { @class = "control-label col-md-2" })
@@ -23,7 +28,7 @@
 				@Html.ValidationMessageFor(model => model.ProjectName, "", new { @class = "text-danger" })
 			</div>
 		</div>
-
+		<br />
 		<div class="form-group">
 			@Html.LabelFor(model => model.IssueType, htmlAttributes: new { @class = "control-label col-md-2" })
 			<div class="col-md-10">
@@ -31,7 +36,7 @@
 				@Html.ValidationMessageFor(model => model.IssueType, "", new { @class = "text-danger" })
 			</div>
 		</div>
-
+		<br />
 		<div class="form-group">
 			@Html.LabelFor(model => model.Summary, htmlAttributes: new { @class = "control-label col-md-2" })
 			<div class="col-md-10">
@@ -39,7 +44,7 @@
 				@Html.ValidationMessageFor(model => model.Summary, "", new { @class = "text-danger" })
 			</div>
 		</div>
-
+		<br />
 		<div class="form-group">
 			@Html.LabelFor(model => model.Description, htmlAttributes: new { @class = "control-label col-md-2" })
 			<div class="col-md-10">
@@ -47,7 +52,7 @@
 				@Html.ValidationMessageFor(model => model.Description, "", new { @class = "text-danger" })
 			</div>
 		</div>
-
+		<br />
 		<div class="form-group">
 			@Html.LabelFor(model => model.Priority, htmlAttributes: new { @class = "control-label col-md-2" })
 			<div class="col-md-10">
@@ -55,7 +60,7 @@
 				@Html.ValidationMessageFor(model => model.Priority, "", new { @class = "text-danger" })
 			</div>
 		</div>
-
+		<br />
 		<div class="form-group">
 			@Html.LabelFor(model => model.Environment, htmlAttributes: new { @class = "control-label col-md-2" })
 			<div class="col-md-10">
@@ -63,7 +68,7 @@
 				@Html.ValidationMessageFor(model => model.Environment, "", new { @class = "text-danger" })
 			</div>
 		</div>
-
+		<br />
 		<div class="form-group">
 			<div class="col-md-offset-2 col-md-10">
 				<input type="submit" value="Create" class="btn btn-default" />
@@ -71,7 +76,6 @@
 		</div>
 	</div>
 }
-
-<div>
+<div id="Back">
 	@Html.ActionLink("Back to List", "Index")
 </div>
