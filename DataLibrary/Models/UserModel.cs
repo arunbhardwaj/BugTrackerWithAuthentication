@@ -12,10 +12,19 @@ namespace DataLibrary.Models
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string EmailAddress { get; set; }
+        public string Username { get; set; }
         
-        public UserModel(int id, string firstName, string lastName, string emailAddress)
+        public UserModel(string firstName, string lastName, string emailAddress, string username)
         {
+            FirstName = firstName;
+            LastName = lastName;
+            EmailAddress = emailAddress;
+            Username = username;
+        }
 
+        public override string ToString()
+        {
+            return FirstName + " " + LastName;
         }
     }
 }

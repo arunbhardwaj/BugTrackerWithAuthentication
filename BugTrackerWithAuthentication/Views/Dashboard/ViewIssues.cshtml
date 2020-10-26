@@ -1,4 +1,4 @@
-﻿@model IEnumerable<DataLibrary.Models.IssueModel>
+﻿@model IEnumerable<BugTrackerWithAuthentication.Models.IssueModel>
 
 @{
 	ViewBag.Title = "View Issues";
@@ -12,9 +12,9 @@
 
 
 <div class="page">
-	<h2>ViewIssues</h2>
+	<h2>View all issues</h2>
 	<p>
-		@Html.ActionLink("Create New", "CreateIssue")
+		@Html.ActionLink(" + Create new issue", "CreateIssue")
 	</p>
 	<table class="table">
 		<tr>

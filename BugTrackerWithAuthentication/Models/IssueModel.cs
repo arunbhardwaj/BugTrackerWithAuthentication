@@ -14,7 +14,9 @@ namespace BugTrackerWithAuthentication.Models
         [Display(Name = "Project")]
         public string ProjectName { get; set; }
 
-        [Display(Name = "Issue Type")]
+        public string CreatedBy { get; set; }
+
+        [Display(Name = "Issue type")]
         public string IssueType { get; set; }
 
         [Display(Name = "Summary")]
@@ -23,12 +25,12 @@ namespace BugTrackerWithAuthentication.Models
         [Display(Name = "Description")]
         public string Description { get; set; }
 
-        [Display(Name = "Priority Level")]
+        [Display(Name = "Priority level")]
         public string Priority { get; set; }
 
         public ArrayList Labels { get; set; }
 
-        [Display(Name = "Environment Details")]
+        [Display(Name = "Environment details")]
         public string Environment { get; set; }
 
     }

@@ -12,19 +12,19 @@ namespace DataLibrary.BusinessLogic
     public static class IssueProcessor
     {
         public static int CreateIssue(string projectName, string createdBy, string issueType,
-            string summary, string description, string priority)
+            string summary, string description, string priority, string environmentDetails)
         {
-            IssueModel data = new IssueModel(projectName, createdBy, issueType, summary, description, priority);
+            IssueModel data = new IssueModel(projectName, createdBy, issueType, summary, description, priority, environmentDetails);
             string sql = @"insert into dbo.tblIssues (ProjectName, CreatedBy, IssueType, Summary,
-                            Description, Priority) values (@projectName, @createdBy, @issueType, 
-                            @summary, @description, @priority);";
+                            Description, Priority, Environment) values (@projectName, @createdBy, @issueType, 
+                            @summary, @description, @priority, @environmentDetails);";
             return SqlDataAccess.SaveData(sql, data);
         }
 
         public static List<IssueModel> LoadIssues()
         {
             string sql = @"select Id, ProjectName, CreatedBy, IssueType, 
-                            Summary, Description, Priority from dbo.tblIssues";
+                            Summary, Description, Priority, Environment from dbo.tblIssues";
             return SqlDataAccess.LoadData<IssueModel>(sql);
         }
     }

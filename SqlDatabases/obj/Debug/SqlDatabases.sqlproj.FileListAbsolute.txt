@@ -3,6 +3,7 @@ C:\Users\Arun\Documents\workspace\BugTrackerWithAuthentication\SqlDatabases\bin\
 C:\Users\Arun\Documents\workspace\BugTrackerWithAuthentication\SqlDatabases\bin\Debug\SqlDatabases.pdb
 C:\Users\Arun\Documents\workspace\BugTrackerWithAuthentication\SqlDatabases\obj\Debug\SqlDatabases.dll
 C:\Users\Arun\Documents\workspace\BugTrackerWithAuthentication\SqlDatabases\obj\Debug\SqlDatabases.pdb
+C:\Users\Arun\Documents\workspace\BugTrackerWithAuthentication\SqlDatabases\obj\Debug\SqlDatabases.sqlprojAssemblyReference.cache
 C:\Users\Arun\Documents\workspace\BugTrackerWithAuthentication\SqlDatabases\obj\Debug\Model.xml
 C:\Users\Arun\Documents\workspace\BugTrackerWithAuthentication\SqlDatabases\obj\Debug\refactor.xml
 C:\Users\Arun\Documents\workspace\BugTrackerWithAuthentication\SqlDatabases\obj\Debug\postdeploy.sql

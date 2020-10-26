@@ -9,4 +9,39 @@
 	padding-left: 15px;
 }
 
+.table {
+	border-collapse: collapse;
+	margin: 25px 0;
+	font-size: 1em;
+	min-width: 400px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.15); /*Adds a slight shadow around the table; 15% opaque black*/
+	border-radius: 5px 5px 0 0; /*this makes table rounded*/
+	overflow: hidden; /*having overflow hidden ensures that the border radius will work correctly bc
+		the table rows will still have square borders. */
+}
 
+.table tr th {
+	background-color: #009879;
+	color: #ffffff;
+	text-align: left;
+	padding: 10px 10px 5px 5px;
+	
+	
+}
+
+	.table tr td {
+		padding-left: 5px;
+		text-align: left;
+	}
+
+	.table tr {
+		border-bottom: 1px solid #dddddd;
+	}
+
+		.table tr:nth-of-type(2n+1) {
+			background-color: #f3f3f3;
+		}
+
+		.table tr:last-of-type {
+			border-bottom: 3px solid #009879;
+		}

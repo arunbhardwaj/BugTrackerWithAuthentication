@@ -17,7 +17,7 @@ namespace DataLibrary.Models
         public string Summary { get; set; }
         public string Description { get; set; }
         public string Priority { get; set; }
-        public ArrayList Labels { get; set; }
+        //public ArrayList Labels { get; set; }
         public string Environment { get; set; }
         
         public IssueModel()
@@ -26,7 +26,7 @@ namespace DataLibrary.Models
         }
 
         public IssueModel(string projectName, string createdBy, string issueType,
-            string summary, string description, string priority)
+            string summary, string description, string priority, string environmentDetails)
         {
             ProjectName = projectName;
             CreatedBy = createdBy;
@@ -34,6 +34,7 @@ namespace DataLibrary.Models
             Summary = summary;
             Description = description;
             Priority = priority;
+            Environment = environmentDetails;
 
         }
     }

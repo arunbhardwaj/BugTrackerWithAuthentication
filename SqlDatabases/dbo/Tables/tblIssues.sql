@@ -6,5 +6,6 @@
     [IssueType] NVARCHAR(50) NULL, 
     [Summary] NVARCHAR(MAX) NULL, 
     [Description] NVARCHAR(MAX) NULL, 
-    [Priority] NVARCHAR(10) NULL
+    [Priority] NVARCHAR(10) NULL,
+    [Environment] NVARCHAR(MAX) NULL
 )
